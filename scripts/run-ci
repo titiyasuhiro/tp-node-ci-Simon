@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# Prepare container(s) and install dependencies test
+# Prepare container(s) and install dependencies test zadjkazjkodjoaz
 docker-compose build;
 docker-compose run --rm test-api
