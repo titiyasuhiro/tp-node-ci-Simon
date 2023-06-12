@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# Prepare container(s) and install dependencies PWEEEET
+# Prepare container(s) and install dependencies PWEEEET et encore
 docker-compose build;
 docker-compose run --rm test-api
