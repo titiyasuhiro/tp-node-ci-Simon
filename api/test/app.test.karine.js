@@ -1,8 +1,4 @@
-'use strict';
-
-// load Unit.js module
-const test = require('unit.js');
-// const {assert} = test;
+import test from 'unit.js';
 
 import add from '../src/app.js';
 
