@@ -14,6 +14,13 @@ console.log('Hello');
 function multiply(a, b) {
   return a * b;
 }
+
 console.log(multiply(4, 9));
 
-export default multiply;
+function add(a, b) {
+  return (a + b);
+}
+
+console.log(add(4, 2));
+
+export default { multiply, add };
