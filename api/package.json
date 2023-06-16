@@ -22,7 +22,9 @@
     "test": "npx mocha ./test/**/*.test.js"
   },
   "dependencies": {
-    "debug": "^4.1.1"
+    "debug": "^4.1.1",
+    "sequelize": "^6.32.x",
+    "pg": "^8.11.x"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
