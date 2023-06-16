@@ -1,6 +1,6 @@
 import test from 'unit.js';
 
-import add from '../src/app.js';
+import { multiply , add } from '../src/app.js';
 
 describe('add', function() {
     it('add(4, 2) should be equal to 6', function() {
