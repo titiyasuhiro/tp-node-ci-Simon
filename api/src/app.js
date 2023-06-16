@@ -1,4 +1,4 @@
-const { Sequelize, DataTypes } = require('sequelize');
+import { Sequelize, DataTypes } from 'sequelize';
 // //Créez une instance de Sequelize et spécifiez les informations de connexion
 const sequelize = new Sequelize('testdb', 'testuser', 'testpw', {
   host: 'postgres',
