@@ -1,2 +1,7 @@
-console.log('Hello World from API!');
-console.log('Cherche la tortue qui se promène !');
+function add(a, b) {
+  return (a + b);
+}   
+
+console.log(add(4, 2));
+
+export default add;
