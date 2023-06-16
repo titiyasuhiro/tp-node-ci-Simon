@@ -6,7 +6,7 @@ const sequelize = new Sequelize('testdb', 'testuser', 'testpw', {
   dialect: 'postgres'
 });
 
-const Product = sequelize.define('Product', {
+const Product = sequelize.define('products', {
   productId: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -16,6 +16,14 @@ const Product = sequelize.define('Product', {
     type: DataTypes.STRING,
     allowNull: false
   },
+  createdAt: {
+    type: DataTypes.DATE,
+    defaultValue: Sequelize.NOW
+  },
+  updatedAt: {
+    type: DataTypes.DATE,
+    defaultValue: Sequelize.NOW
+  }
 }, {
   underscored: true,
 });

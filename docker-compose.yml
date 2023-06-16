@@ -12,6 +12,8 @@ services:
       - backend
     volumes:
       - ./api:/usr/app/
+    depends_on:
+      - postgres
     command: bash
     tty: true
 
@@ -21,6 +23,8 @@ services:
       dockerfile: ./Dockerfile-test-api
     networks:
       - backend
+    depends_on:
+      - postgres
     command: yarn test
 
   postgres:
